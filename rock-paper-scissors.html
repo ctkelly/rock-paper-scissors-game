@@ -18,7 +18,7 @@
       return computerSelection;
       }
 
-      //Function to call the playRound function 5 times
+      //Function to play a five-round match
       function game() {
         for (let i = 0; i < 5; i++) { 
           
@@ -38,15 +38,15 @@
           return "You win!";
          
        }      
-    }
+      }
       console.log(`You chose: ${playerSelection}`);
       console.log(`Computer chose: ${computerSelection}`);
       console.log(playRound(playerSelection, computerSelection));
       console.log(`Player: ${playerScore}`);
       console.log(`Computer: ${computerScore}`);     
-  } 
-}
-    
+    } 
+  }  
+    //Function to declare the best-of-five-rounds match winner
     function declareMatchWinner() {
       if (playerScore > computerScore) {
         return "PLAYER WINS THE MATCH!" 
@@ -56,14 +56,10 @@
         return "THE MATCH IS TIED!"
       }
     }
-
+    
     game(); 
     console.log(declareMatchWinner()); 
 
-
- 
-    
-    
     </script>
   </body>
-</html>
+</html>  
