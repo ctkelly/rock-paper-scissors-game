@@ -1,4 +1,4 @@
-From The Odin Project -- a simple rock-paper-scissors game, played from the browser console 
+From The Odin Project -- a simple rock-paper-scissors game, played from the browser console. 
 
 Assignment
 
